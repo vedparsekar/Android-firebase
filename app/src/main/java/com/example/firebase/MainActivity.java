@@ -25,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
 
         myRef.setValue("VED PARSEKAR");
 
-        // Read from the database
         myRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
