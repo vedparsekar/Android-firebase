@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         name = findViewById(R.id.tw);
         DatabaseReference myRef = database.getReference("message");
-
+	//Database
         myRef.setValue("VED PARSEKAR");
 
         myRef.addValueEventListener(new ValueEventListener() {
