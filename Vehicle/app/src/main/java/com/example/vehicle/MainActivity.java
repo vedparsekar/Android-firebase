@@ -19,8 +19,6 @@ public class MainActivity extends AppCompatActivity {
         vdet =(TextView)findViewById(R.id.vdet);
         dbClient = new DBClient(this);
         dbClient.open();
-        dbClient.open();
-        dbClient.addUser("Vehicleno","details");
         ArrayList<String> users;
         users = dbClient.getuser();
         if(users==null)
